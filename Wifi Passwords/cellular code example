@@ -1,0 +1,37 @@
+<!--
+Sure, here are some ways to optimize the HTML code you provided:
+
+Remove the border attribute from the table tag. This will remove the visible border around the table, which can save a few bytes of code.
+Reduce the cellpadding and cellspacing attributes. These attributes control the amount of space between the cells in the table. Reducing these values can also save a few bytes of code.
+Use CSS to style the table. This will allow you to control the appearance of the table without having to add any additional HTML code.
+Use a responsive CSS framework to make the table responsive to different screen sizes. This will ensure that the table looks good on all devices.
+Here is the optimized code:-->
+
+<html>
+<head>
+<title>HTML TABLE</title>
+<style>
+table {
+  border: none;
+  cellpadding: 0;
+  cellspacing: 0;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>ANKUSH</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Raman</td>
+<td>35</td>
+</tr>
+</table>
+</body>
+</html>
